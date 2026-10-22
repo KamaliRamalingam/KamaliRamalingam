@@ -2,6 +2,8 @@
 
 Data Analyst based in Stockholm, working across business intelligence and data engineering.
 
+Hyper Island Data Analyst student · Previously C#/.NET developer at Cognizant · Five Pass with Distinction grades · Top 5 finalist, Kong AI Governance Hackathon · Seeking LIA, Dec 2026 – Jun 2027
+
 I am currently studying on the Data Analyst programme at Hyper Island. Before moving into data, I spent three years as a C#/.NET developer at Cognizant, working on an enterprise legal platform. That background still shapes how I approach analysis work: I care about whether the numbers reconcile, whether the pipeline can be re-run, and whether someone else can pick up what I built.
 
 Over the past year I have worked on client projects in Sweden in retail, fintech and travel, alongside building data pipelines of my own. I am now looking for a six-month LIA internship from December 2026 to June 2027, ideally one that can grow into a full-time analyst role.
