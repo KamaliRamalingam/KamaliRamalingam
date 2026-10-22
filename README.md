@@ -21,9 +21,6 @@ Tools I use regularly: SQL, Python (Pandas, Plotly, Jupyter), Power BI (DAX), Ta
 **[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)**
 An automated ELT pipeline covering 1,241 IPL matches from 2008 to 2026. Match data is ingested with Python into Azure Blob Storage, loaded into a Snowflake medallion warehouse, transformed with dbt models and presented in a Tableau dashboard. This is the project that best shows how I structure a pipeline end to end.
 
-**[Edge-Resilient Baggage System](https://github.com/KamaliRamalingam/edge-resilient-baggage-system)**
-Built with a team for the Couchbase Edge Resilience Hackathon. The system keeps airport baggage operations running locally during a cloud outage and synchronises with the cloud once connectivity returns. There is a demo video in the repository.
-
 **Destination Prioritisation Dashboard** — travel industry client project
 A Power BI dashboard that classifies destinations into four prioritised actions for a travel company. I owned the build from stakeholder requirements to delivery and validated every figure in the dashboard back to the raw source data.
 
@@ -40,6 +37,7 @@ Segmented around 150,000 customers in SQL on Snowflake using recency, frequency 
 
 Hackathons have been a good way to work on problems outside the programme:
 
+- **Couchbase Edge Resilience Hackathon** (2026) — Built, with a team, an [edge-resilient baggage operations system](https://github.com/KamaliRamalingam/edge-resilient-baggage-system) that keeps airport baggage operations running locally during a cloud outage and synchronises with the cloud once connectivity returns. There is a demo video in the repository.
 - **Kong AI Governance** (April 2026) — Top 5 finalist. We built an AI gateway for Volvo with PII and DLP scanning, rate limiting and GDPR audit logging.
 - **Snowflake AI Hackathon** (April 2026) — Built an agreement classification model in Snowflake using Cortex AI.
 - **Cline AI-Assisted Coding** (May 2026) — Lead developer on an Electrolux proof of concept that turns technical updates into plain-language communication.
