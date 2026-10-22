@@ -1,114 +1,60 @@
-<div align="center">
-
 # Kamali Ramalingam
 
-### Data Analyst · BI & Data Engineering
+Data Analyst based in Stockholm, working across business intelligence and data engineering.
 
-**I turn raw data into decisions people can act on.**
+I am currently studying on the Data Analyst programme at Hyper Island. Before moving into data, I spent three years as a C#/.NET developer at Cognizant, working on an enterprise legal platform. That background still shapes how I approach analysis work: I care about whether the numbers reconcile, whether the pipeline can be re-run, and whether someone else can pick up what I built.
 
-📍 Stockholm, Sweden &nbsp;|&nbsp; 🎓 Data Analyst Programme, Hyper Island &nbsp;|&nbsp; 💼 Previously C#/.NET Developer @ Cognizant
+Over the past year I have worked on client projects in Sweden in retail, fintech and travel, alongside building data pipelines of my own. I am now looking for a six-month LIA internship from December 2026 to June 2027, ideally one that can grow into a full-time analyst role.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kamaliramalingam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamaliramalingam)
-[![Email](https://img.shields.io/badge/Email-vrpkamali@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vrpkamali@gmail.com)
-[![LIA](https://img.shields.io/badge/LIA%20Internship-Open%20Dec%202026%20–%20Jun%202027-2EA44F?style=for-the-badge)](#-open-to-opportunities)
+## What I work on
 
-</div>
+Most of my work falls into three areas:
 
----
+- **Analysis and reporting** — SQL and Python analysis, KPI definition, demand analysis, customer segmentation and A/B testing. I build dashboards in Power BI and Tableau, usually starting from the decision the dashboard needs to support rather than from the chart.
+- **Data engineering** — ELT pipelines on Snowflake using dbt and Apache Airflow, with data quality checks built in. Dimensional modelling (star schema), medallion architecture and Azure Blob Storage for ingestion.
+- **AI projects** — Retrieval-augmented generation (RAG) applications with LangChain and LangGraph, and MCP tooling. This has mostly come through hackathons so far.
 
-## 👋 About me
+Tools I use regularly: SQL, Python (Pandas, Plotly, Jupyter), Power BI (DAX), Tableau, Snowflake, dbt Cloud, Apache Airflow, Excel, Git, Docker and REST APIs. Earlier in my career I worked mainly in C#, .NET Core and ASP.NET MVC.
 
-Data Analyst skilled in **SQL, Python, Power BI and Tableau**, with an **M.Sc. in Computer Science** and **3 years as a C#/.NET developer** on an enterprise legal platform. That engineering background shapes how I work: pipelines and dashboards that are tested, reconciled and reliable — not just pretty.
+## Selected work
 
-At Hyper Island I've delivered demand analysis and data visualisation for **Swedish retail and fintech clients**, and built a full **ELT pipeline on Snowflake, dbt and Airflow** feeding a live dashboard.
+**[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)**
+An automated ELT pipeline covering 1,241 IPL matches from 2008 to 2026. Match data is ingested with Python into Azure Blob Storage, loaded into a Snowflake medallion warehouse, transformed with dbt models and presented in a Tableau dashboard. This is the project that best shows how I structure a pipeline end to end.
 
-- 🔭 **Currently:** Data Analyst Programme at Hyper Island (2025–2027) — Pass with Distinction in Python Programming, Data Engineering, Data Governance & Ethics, Leadership & Team Excellence, and Business Intelligence
-- 🏆 **Recent highlight:** Top 5 Finalist, Kong AI Governance Hackathon — AI gateway for Volvo with PII/DLP scanning and GDPR audit logging
-- 🌱 **Focus areas:** ELT pipelines, dimensional modelling, dashboard design and data storytelling
-- 🗣️ **Languages:** Tamil (native) · English (professional) · Swedish (basic, SFI C completed)
+**[Edge-Resilient Baggage System](https://github.com/KamaliRamalingam/edge-resilient-baggage-system)**
+Built with a team for the Couchbase Edge Resilience Hackathon. The system keeps airport baggage operations running locally during a cloud outage and synchronises with the cloud once connectivity returns. There is a demo video in the repository.
 
----
+**Destination Prioritisation Dashboard** — travel industry client project
+A Power BI dashboard that classifies destinations into four prioritised actions for a travel company. I owned the build from stakeholder requirements to delivery and validated every figure in the dashboard back to the raw source data.
 
-## 🧭 What I do
+**Sell-Out Analysis for Seasonal Restocking** — Happy Socks
+A demand scoring model for seasonal restocking, combining early sell-out signals with retailer breadth and back-tested against two previous seasons. Our restocking recommendations were used by the client in planning for the following season.
 
-| 📊 Analytics & BI | ⚙️ Data Engineering | 🤖 AI & Software |
-|---|---|---|
-| SQL & Python analysis that answers a business question, not just a query | ELT pipelines on Snowflake, dbt & Airflow with data-quality tests built in | RAG applications with LangChain / LangGraph and MCP tooling |
-| Power BI & Tableau dashboards designed around the decision they support | Dimensional modelling (star schema) and medallion architecture | 3 years of production C#/.NET — clean code, REST APIs, 95%+ test coverage |
-| KPI definition, demand analysis, RFM segmentation, A/B testing | Azure Blob Storage ingestion, data lineage and reconciliation | Git, Docker and CI/CD — I ship, document and hand over properly |
+**Financial Data Visualisation Redesign** — Charly
+A redesign of a Swedish fintech's parental-leave calculator. We replaced the original line charts with a comparison view that shows a household's financial imbalance against a partner, workplace and national averages, which made the result considerably easier to understand.
 
----
+**Customer Segmentation (RFM)**
+Segmented around 150,000 customers in SQL on Snowflake using recency, frequency and monetary value, and set out a retention approach for each segment.
 
-## 🛠️ Tech stack
+## Hackathons
 
-<div align="center">
+Hackathons have been a good way to work on problems outside the programme:
 
-![Skills](https://skillicons.dev/icons?i=python,postgres,azure,docker,git,github,html,css,js,cs,dotnet,linux&theme=light)
+- **Kong AI Governance** (April 2026) — Top 5 finalist. We built an AI gateway for Volvo with PII and DLP scanning, rate limiting and GDPR audit logging.
+- **Snowflake AI Hackathon** (April 2026) — Built an agreement classification model in Snowflake using Cortex AI.
+- **Cline AI-Assisted Coding** (May 2026) — Lead developer on an Electrolux proof of concept that turns technical updates into plain-language communication.
+- **Build for Impact: Labor Rights** (May 2026) — Built a dashboard comparing labour precarity across five dimensions.
 
-</div>
+## Background
 
-**Analytics** · SQL · Python (Pandas, Plotly, Jupyter) · Statistics, Hypothesis & A/B Testing · Machine Learning (Classification, Logistic Regression) · EDA & Feature Engineering · Data Cleaning, Validation & Reconciliation · RFM Segmentation · Sentiment Analysis (VADER)
+- **Data Analyst Programme, Hyper Island** (2025–2027) — Pass with Distinction in Python Programming, Data Engineering, Data Governance and Ethics, Leadership and Team Excellence, and Business Intelligence. The programme includes the six-month LIA placement I am applying for now.
+- **Programmer Analyst, Cognizant** (2012–2015) — Developed features for a large legal platform in an Agile organisation of around 100 people, maintaining over 95% unit test coverage. Won the company's Bright Sparks innovation contest.
+- **M.Sc. in Computer Science, College of Engineering Guindy, Anna University** (2007–2012)
 
-**Business Intelligence** · Power BI (DAX, Drill-through) · Tableau · Excel (Pivot Tables, VLOOKUP) · Dashboard Design · KPI Definition · Data Storytelling
+Languages: Tamil (native), English (professional working proficiency), Swedish (basic — SFI C completed).
 
-**Data Engineering** · Snowflake · dbt Cloud · Apache Airflow · Azure Blob Storage · ELT/ETL Design · Star Schema · Medallion Architecture · Data Quality & Lineage
+## Contact
 
-**AI & Engineering** · RAG (LangChain, LangGraph) · MCP Development · GitLab CI/CD · Docker · REST APIs · C# / .NET Core / ASP.NET MVC · Agile/Scrum
+The best way to reach me is on [LinkedIn](https://www.linkedin.com/in/kamaliramalingam), or by email at vrpkamali@gmail.com.
 
----
-
-## 📌 Featured projects
-
-| Project | What it shows | Stack |
-|---|---|---|
-| **[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)** | Automated ELT for 1,241 IPL matches (2008–2026) into a Snowflake medallion warehouse, with a live Tableau dashboard on top | Python · SQL · Airflow · Snowflake · dbt · Azure · Tableau |
-| **[Edge-Resilient Baggage System](https://github.com/KamaliRamalingam/edge-resilient-baggage-system)** | Edge-first airport baggage operations that keep running during cloud outages and auto-sync on reconnect — demo video in the repo | Edge architecture · Couchbase · Real-time dashboard |
-| **Destination Prioritisation Dashboard** *(travel industry)* | End-to-end Power BI decision support classifying destinations into 4 prioritised actions; every figure validated back to raw source rows | Python · Power BI (DAX) |
-| **Happy Socks — Sell-Out Analysis** *(Swedish retail)* | Demand-scoring model combining early sales + retailer breadth, back-tested on 2 prior seasons; restock recommendations confirmed valuable by the client | Excel · Google Sheets · Python |
-| **Charly — Visualisation Redesign** *(Swedish fintech)* | Rebuilt a parental-leave calculator's charts into a financial-imbalance gauge vs. partner, workplace and national averages | Power BI · HTML · CSS · JavaScript |
-| **Customer Segmentation — RFM** | ~150,000 customers segmented in SQL on Snowflake (Recency, Frequency, Monetary), with a tailored retention strategy per segment | SQL · Snowflake |
-
----
-
-## 🏆 Hackathons
-
-| Event | Result / What I built |
-|---|---|
-| **Kong AI Governance** (Apr 2026) | 🥇 **Top 5 Finalist** — AI gateway for Volvo: PII/DLP scanning, rate limiting, GDPR audit logging |
-| **Snowflake AI Hackathon** (Apr 2026) | Agreement ML classifier built in Snowflake with Cortex AI |
-| **Cline AI-Assisted Coding** (May 2026) | Lead developer — Electrolux AI agent turning technical updates into plain language |
-| **Build for Impact: Labor Rights** (May 2026) | Solo-built Precarity Index dashboard comparing labour precarity across 5 dimensions |
-| **Couchbase Edge Resilience** (2026) | Edge-resilient baggage system for Swedavia — see featured projects |
-
----
-
-## 📈 GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KamaliRamalingam&show_icons=true&hide_border=true&title_color=0A66C2&icon_color=0A66C2" alt="Kamali's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KamaliRamalingam&layout=compact&hide_border=true&title_color=0A66C2" alt="Top languages" />
-
-</div>
-
----
-
-## 🎓 Background
-
-- **Data Analyst Programme — Hyper Island, Stockholm** (Aug 2025 – Jun 2027, expected) · EQF Level 5 (450 HVE credits), incl. the 6-month LIA placement
-- **Programmer Analyst — Cognizant Technology Solutions** (Nov 2012 – Dec 2015) · Business logic and features for a major legal platform in a ~100-person Agile organisation; won Cognizant's **Bright Sparks** innovation contest
-- **M.Sc. (Integrated) in Computer Science — College of Engineering Guindy, Anna University** (2007–2012) · CGPA 8.19/10
-
----
-
-## 🤝 Open to opportunities
-
-<div align="center">
-
-**I'm seeking a 6-month LIA internship (Dec 2026 – Jun 2027) in Data Analytics, BI or Data Engineering in Stockholm — aiming to grow into a full-time analyst role.**
-
-Hiring, know a team that is, or just want to talk pipelines and dashboards?
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamaliramalingam)
-
-</div>
+If you are hiring for an LIA, internship or part-time data role in Stockholm starting December 2026, I would be glad to hear from you.
