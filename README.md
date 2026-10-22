@@ -16,22 +16,25 @@ Most of my work falls into three areas:
 
 Tools I use regularly: SQL, Python (Pandas, Plotly, Jupyter), Power BI (DAX), Tableau, Snowflake, dbt Cloud, Apache Airflow, Excel, Git, Docker and REST APIs. Earlier in my career I worked mainly in C#, .NET Core and ASP.NET MVC.
 
-## Selected work
+## Data Analysis and Engineering Projects
 
-**[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)**
-An automated ELT pipeline covering 1,241 IPL matches from 2008 to 2026. Match data is ingested with Python into Azure Blob Storage, loaded into a Snowflake medallion warehouse, transformed with dbt models and presented in a Tableau dashboard. This is the project that best shows how I structure a pipeline end to end.
+**Destination Prioritisation Dashboard** — travel industry case (Oct 2026)
+I owned the end-to-end build of a Power BI decision-support dashboard and Python data workflow, based on stakeholder requirements, classifying destinations into four prioritised actions. I validated the figures end to end — 6 of 6 reconciliation checks and 8 of 8 dashboard tests passed, tracing results from the dashboard back to the raw source rows. Built with Python and Power BI (DAX). Pass with Distinction.
 
-**Destination Prioritisation Dashboard** — travel industry client project
-A Power BI dashboard that classifies destinations into four prioritised actions for a travel company. I owned the build from stakeholder requirements to delivery and validated every figure in the dashboard back to the raw source data.
+**Sell-Out Analysis for Seasonal Restocking** — Happy Socks (Sep 2026)
+In a five-person team, I built an Early Demand Score for a Swedish retail client, combining early sales with retailer breadth. Back-tested against two prior seasons, it outperformed a volume-only baseline in predicting bestsellers. We presented restock recommendations to the client, who confirmed their value for upcoming-season planning. Built with Excel, Google Sheets and Python.
 
-**Sell-Out Analysis for Seasonal Restocking** — Happy Socks
-A demand scoring model for seasonal restocking, combining early sell-out signals with retailer breadth and back-tested against two previous seasons. Our restocking recommendations were used by the client in planning for the following season.
+**[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)** — automated ELT pipeline and dashboard (Jun 2026)
+I engineered two Airflow ELT pipelines loading 1,243 IPL matches and 4,800+ Reddit posts (refreshed every 15 minutes) into a Snowflake medallion warehouse, transformed with 14 SQL-based dbt models and 100 tests, all passing. The project includes a live Tableau dashboard connected to Snowflake, and the pipelines sustained a 100% success rate across 90+ runs using automatic retries. Built with Python, SQL, Apache Airflow, Snowflake, dbt, Azure Blob Storage and Tableau. Pass with Distinction.
 
-**Financial Data Visualisation Redesign** — Charly
-A redesign of a Swedish fintech's parental-leave calculator. We replaced the original line charts with a comparison view that shows a household's financial imbalance against a partner, workplace and national averages, which made the result considerably easier to understand.
+**Financial Data Visualisation Redesign** — Charly (May 2026)
+I owned the redesign of a Swedish fintech's parental-leave calculator in a four-person team, replacing line charts with a financial imbalance gauge and comparisons against partner, workplace and national averages, which made the result considerably easier to understand. Built with Power BI, HTML, CSS and JavaScript.
 
-**Customer Segmentation (RFM)**
-Segmented around 150,000 customers in SQL on Snowflake using recency, frequency and monetary value, and set out a retention approach for each segment.
+**Hidden Longevity Champions** — Billboard Hot 100 analysis (Jan 2026)
+I cleaned and joined five relational datasets covering 10,783 tracks from 2000 to 2024. Only 3% of songs reached number one, while 28% charted for 20+ weeks without ever reaching the top spot. I quantified a 37% decline in chart longevity from the pre-streaming to the streaming era and presented it as an interactive data story with a custom "sleeper score". Built with Python, Pandas and Plotly. Pass with Distinction.
+
+**Customer Segmentation** — RFM analysis (Nov 2025)
+I segmented around 150,000 customers using an RFM (recency, frequency, monetary) model in SQL on Snowflake. The top-tier segment — 33% of customers — generated 67% of total revenue. I identified the five highest-value customers and proposed a tiered retention strategy tailored to each segment.
 
 ## Hackathons
 
@@ -39,7 +42,7 @@ Hackathons have been a good way to work on problems outside the programme:
 
 - **Couchbase Edge Resilience Hackathon** (2026) — Built, with a team, an [edge-resilient baggage operations system](https://github.com/KamaliRamalingam/edge-resilient-baggage-system) that keeps airport baggage operations running locally during a cloud outage and synchronises with the cloud once connectivity returns. There is a demo video in the repository.
 - **Kong AI Governance** (April 2026) — Top 5 finalist. We built an AI gateway for Volvo with PII and DLP scanning, rate limiting and GDPR audit logging.
-- **Snowflake AI Hackathon** (April 2026) — Built an agreement classification model in Snowflake using Cortex AI.
+- **Snowflake AI Hackathon** (April 2026) — Built a loan-agreement ML classifier in Snowflake using Cortex AI.
 - **Cline AI-Assisted Coding** (May 2026) — Lead developer on an Electrolux proof of concept that turns technical updates into plain-language communication.
 - **Build for Impact: Labor Rights** (May 2026) — Built a dashboard comparing labour precarity across five dimensions.
 
