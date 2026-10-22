@@ -52,4 +52,4 @@ Hackathons have been a good way to work on problems outside the programme:
 - **Programmer Analyst, Cognizant** (2012–2015) — Developed features for a large legal platform in an Agile organisation of around 100 people, maintaining over 95% unit test coverage. Won the company's Bright Sparks innovation contest.
 - **M.Sc. in Computer Science, College of Engineering Guindy, Anna University** (2007–2012)
 
-Languages: Tamil (native), English (professional working proficiency), Swedish (basic — SFI C completed).
+- **Languages** — Tamil (native), English (professional working proficiency), Swedish (basic — SFI C completed)
