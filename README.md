@@ -53,9 +53,3 @@ Hackathons have been a good way to work on problems outside the programme:
 - **M.Sc. in Computer Science, College of Engineering Guindy, Anna University** (2007–2012)
 
 Languages: Tamil (native), English (professional working proficiency), Swedish (basic — SFI C completed).
-
-## Contact
-
-The best way to reach me is on [LinkedIn](https://www.linkedin.com/in/kamaliramalingam), or by email at vrpkamali@gmail.com.
-
-If you are hiring for an LIA, internship or part-time data role in Stockholm starting December 2026, I would be glad to hear from you.
