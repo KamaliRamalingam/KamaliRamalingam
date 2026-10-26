@@ -34,7 +34,7 @@ full-time analyst role.
 ## Tech stack
 
 <p align="center">
-  <img src="assets/tech-stack-icons.svg" width="528" alt="SQL, Python, pandas, Plotly, Jupyter, Power BI, Tableau, Excel, Snowflake, dbt, Apache Airflow, Azure, Docker, Git, .NET, LangChain, LangGraph" />
+  <img src="assets/tech-stack-tiles.svg" width="528" alt="SQL, Python, pandas, Plotly, Jupyter, Power BI, Tableau, Excel, Snowflake, dbt, Apache Airflow, Azure, Docker, Git, .NET, LangChain, LangGraph" />
 </p>
 
 - **Analysis & BI:** SQL · Python (Pandas, Plotly, Jupyter) · Power BI (DAX) · Tableau · Excel
