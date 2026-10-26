@@ -15,14 +15,14 @@ full-time analyst role.
 
 ## Projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)**<br>Jun 2026 · *Distinction* | Two automated ELT pipelines loading 1,241 IPL matches and 4,800+ Reddit posts into a Snowflake medallion warehouse, with dbt tests on every key and a live Tableau dashboard. 90+ scheduled runs with automatic retries. | Python, SQL, Airflow, Snowflake, dbt, Azure Blob, Tableau |
-| **Destination Prioritisation Dashboard**<br>Oct 2026 · *Distinction* | Decision-support dashboard classifying travel destinations into four prioritised actions. Validated with 6/6 reconciliation checks and 8/8 dashboard tests, traced back to source rows. | Python, Power BI (DAX) |
-| **Sell-Out Signals for Restocking**<br>Happy Socks · Sep 2026 | Early Demand Score combining early sales with retailer breadth. Back-tested against two prior seasons, it outperformed a volume-only baseline. Five-person team. | Python, Excel, Google Sheets |
-| **Financial Visualisation Redesign**<br>Charly · May 2026 | Owned the redesign of a fintech's parental-leave calculator, replacing line charts with a financial imbalance gauge and partner, workplace and national-average comparisons. Four-person team. | Power BI |
-| **Hidden Longevity Champions**<br>Jan 2026 · *Distinction* | 10,783 Billboard Hot 100 tracks (2000–2024). 28% charted 20+ weeks without reaching #1; chart longevity fell 37% in the streaming era. | Python, Pandas, Plotly |
-| **Customer Segmentation (RFM)**<br>Nov 2025 | Segmented ~150,000 customers. The top tier (33% of customers) generated 67% of revenue; proposed a tiered retention strategy per segment. | SQL, Snowflake |
+| Project | When | What it is | Stack |
+|---|---|---|---|
+| **Destination Prioritisation Dashboard**<br>*Distinction* | Oct 2026 | Decision-support dashboard classifying travel destinations into four prioritised actions. Validated with 6/6 reconciliation checks and 8/8 dashboard tests, traced back to source rows. | Python, Power BI (DAX) |
+| **Sell-Out Signals for Restocking**<br>Happy Socks | Sep 2026 | Early Demand Score combining early sales with retailer breadth. Back-tested against two prior seasons, it outperformed a volume-only baseline. Five-person team. | Python, Excel, Google Sheets |
+| **[IPL Analytics Pipeline](https://github.com/KamaliRamalingam/ipl_pipeline)**<br>*Distinction* | Jun 2026 | Two automated ELT pipelines loading 1,241 IPL matches and 4,800+ Reddit posts into a Snowflake medallion warehouse, with dbt tests on every key and a live Tableau dashboard. 90+ scheduled runs with automatic retries. | Python, SQL, Airflow, Snowflake, dbt, Azure Blob, Tableau |
+| **Financial Visualisation Redesign**<br>Charly | May 2026 | Owned the redesign of a fintech's parental-leave calculator, replacing line charts with a financial imbalance gauge and partner, workplace and national-average comparisons. Four-person team. | Power BI, HTML, CSS, JavaScript |
+| **Hidden Longevity Champions**<br>*Distinction* | Jan 2026 | 10,783 Billboard Hot 100 tracks (2000–2024). 28% charted 20+ weeks without reaching #1; chart longevity fell 37% in the streaming era. | Python, Pandas, Plotly |
+| **Customer Segmentation (RFM)** | Nov 2025 | Segmented ~150,000 customers. The top tier (33% of customers) generated 67% of revenue; proposed a tiered retention strategy per segment. | SQL, Snowflake |
 
 ## Hackathons
 - **Kong AI Governance** (Apr 2026), **Top 5 finalist**: AI gateway for Volvo with PII/DLP scanning, rate limiting and GDPR audit logging
@@ -32,8 +32,9 @@ full-time analyst role.
 - **Build for Impact: Labor Rights** (May 2026): solo-built dashboard comparing labour precarity across five dimensions
 
 ## Toolkit
-SQL · Python (Pandas, Plotly) · Power BI (DAX) · Tableau · Excel · Snowflake ·
-dbt Cloud · Apache Airflow · Azure Blob · Git · Docker
+- **Analysis & BI:** SQL · Python (Pandas, Plotly, Jupyter) · Power BI (DAX) · Tableau · Excel
+- **Data engineering:** Snowflake · dbt Cloud · Apache Airflow · Azure Blob Storage · Docker
+- **Engineering & AI:** Git · REST APIs · C# / .NET · LangChain · LangGraph
 
 ## Background
 - **Hyper Island**, Data Analyst Programme (2025–2027): Distinctions in Python,
@@ -42,5 +43,3 @@ dbt Cloud · Apache Airflow · Azure Blob · Git · Docker
   test coverage, Bright Sparks innovation award
 - **M.Sc. Computer Science**, College of Engineering Guindy, Anna University
 - **Languages:** Tamil (native), English (professional), Swedish (SFI C)
-
-[LinkedIn](https://linkedin.com/in/kamaliramalingam) · vrpkamali@gmail.com
