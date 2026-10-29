@@ -44,8 +44,8 @@ full-time analyst role.
 - **Engineering & AI:** Git · REST APIs · C# / .NET · LangChain · LangGraph
 
 ## Background
-- **Hyper Island**, Data Analyst Programme (2025–2027): Distinctions in Python,
-  Data Engineering, Data Governance & Ethics, Business Intelligence, Leadership
+- **Hyper Island**, Data Analyst Programme (2025–2027): Distinctions in Python Programming,
+  Data Engineering, Data Governance & Ethics, Business Intelligence, Leadership & Team Excellence
 - **Cognizant**, Programmer Analyst (2012–2015): legal-tech platform, 95%+ unit
   test coverage, Bright Sparks innovation award
 - **M.Sc. Computer Science**, College of Engineering Guindy, Anna University
